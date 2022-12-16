@@ -8,7 +8,7 @@
 
 numbers=eval(input("enter numbers"))
 even_count, odd_count = 0, 0
-for num in numbers: 
+for num in numbers:
     if num % 2 == 0:
         even_count += 1
     else:
